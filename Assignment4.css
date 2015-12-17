@@ -1,0 +1,112 @@
+html {
+	font-family: 'Arsenal', sans-serif;
+}
+
+
+body {
+	color: black;
+	background-image: url(images/Emirates.jpg);
+	background-repeat: no-repeat;
+	background-size: 1100px
+}
+
+#facebook {
+	width: 40px;
+	position: fixed;
+	float: left;
+	top: 250px;
+}
+
+#twitter {
+	width: 40px;
+	float: left;
+	position: fixed;
+	top: 300px;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	font-size: 40px
+}
+
+h4 {
+	color: red;
+	text-align: center;
+}
+
+#homeimage img {
+	float: right;
+	width:200px;
+	left: 850px;
+}
+
+li {
+	color: red;
+	float: left;
+	padding-right: 40px;
+	padding-left: 60px
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: red;
+	border-radius: 5px;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px 12px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/*changes background color when hovering*/
+li a:hover {
+	background-color: white;
+}
+
+.center {
+	margin-left: 60px;
+	margin-right: 15px;
+}
+
+#alexis {
+	width: 500px;
+	float: right;
+}
+
+#wenger {
+	width: 200px;
+	float: left;
+	padding-right: 20px;
+}
+
+/*image gallery*/
+
+.roster_gallery {
+	margin-left: 50px;
+	border: 1px solid red;
+	float: left;
+	width: 180px;
+}
+
+.roster_gallery:hover {
+	border: 1px solid black;
+}
+
+.roster_gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.description {
+	padding: 15px;
+	text-align: center;
+}
+
